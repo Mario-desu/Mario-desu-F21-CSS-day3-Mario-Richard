@@ -9,6 +9,7 @@ main {
     border: solid 1px black;
     width: 20vw;
     flex-direction: column;
+    font-size: 1.2em;
 }
 
 .nutrition-facts, .protein {
