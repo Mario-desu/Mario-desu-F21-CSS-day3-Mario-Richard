@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    margin: 5vh;
+    background-color: antiquewhite;
+    
+}
+
+a {
+    margin-bottom: 3vh;
+    font-size: 2em;
+    transition: 1s ease-in-out;
+}
+
+a:hover {
+    color: rgb(209, 54, 54);
+    font-size: 3em;
+    transform: translate(50px, 30px);
+
+}
