@@ -16,5 +16,7 @@ main {
 }
 
 .column {
+    display: flex;
+    flex-flow: row;
     
 }
