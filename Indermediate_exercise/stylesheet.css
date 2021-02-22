@@ -11,9 +11,23 @@ main {
     flex-direction: column;
 }
 
-.nutrition-facts {
+.nutrition-facts, .protein {
     border-bottom: solid 10px black;
 }
+
+.calories, .total-fat {
+    border-top: solid 3px black;
+}
+
+.calories-fat {
+
+    border-bottom: solid 6px black;
+}
+
+.calories, .total-fat, .saturated-fat, .trans-fat, .cholesterol, .sodium, .carbohydrate, .dietary.fiber, .sugars, .vitamin-a, .vitamin-c, .calcium, .iron {
+    border-bottom: solid 2px black;
+}
+
 
 .column {
     width: 100%;
