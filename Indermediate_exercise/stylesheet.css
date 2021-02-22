@@ -16,7 +16,36 @@ main {
 }
 
 .column {
+    width: 100%;
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
     
 }
+
+.amount {
+    align-items: flex-end;
+}
+
+.one {
+    width: 60%;
+    flex-grow: 15;
+    
+}
+
+.two {
+    width: 20%;
+    flex-grow: 1;
+    text-align: end;
+    justify-content: flex-end;
+    
+}
+
+.three {
+    width: 20%;
+    flex-grow: 1;
+    text-align: end;
+    justify-content: flex-end;
+    
+}
+
