@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+
+    display: flex;
+    border: solid 1px black;
+    width: 20vw;
+    flex-direction: column;
+}
+
+.nutrition-facts {
+    border-bottom: solid 10px black;
+}
+
+.column {
+    flex-direction:space-evenly;
+}
