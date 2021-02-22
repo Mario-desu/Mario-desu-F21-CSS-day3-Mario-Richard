@@ -16,5 +16,6 @@ main {
 }
 
 .column {
-    flex-direction:space-evenly;
+    display: flex;
+    flex-flow: row;
 }
